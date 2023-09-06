@@ -7,7 +7,7 @@ require_once 'pic.php';
 require_once 'func.php';
 ob_start();
 
-define('BOT_TOKEN', '266437174:AAEaV-5mJllaATDlMdWY6L8x4jNIlbF6b-w');
+define('BOT_TOKEN', '1079939636:AAGwdMHmAo6b20FSj5ewwNTgVm42e6Qx0R0');
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 
 function apiRequestWebhook($method, $parameters)
