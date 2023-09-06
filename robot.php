@@ -2,9 +2,7 @@
 
 //ini_set('default_charset', "UTF-8");
 header('Content-type: text/html; charset=UTF-8');
-require_once 'db.php';
-require_once 'pic.php';
-require_once 'func.php';
+
 ob_start();
 
 define('BOT_TOKEN', '1079939636:AAGwdMHmAo6b20FSj5ewwNTgVm42e6Qx0R0');
